@@ -23,8 +23,7 @@ end
 def decode(message)
   decode_mes = ''
   message.split('   ').each do |word|
-   decode_mes += ' '
-   decode_mes += word.split.map{|char| decode_word(char)}.join
+   decode_mes += word.split.map{|char| decode_word(char)}.join + ' '
   end
   decode_mes
 end

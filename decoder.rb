@@ -19,3 +19,12 @@ end
 def decode_word(word)
   word.split.map { |char| decode_char(char) }.join
 end
+
+def decode(message)
+  decode_mes = ''
+  message.split('   ').each do |word|
+   decode_mes += ' '
+   decode_mes += word.split.map{|char| decode_word(char)}.join
+  end
+  decode_mes
+end

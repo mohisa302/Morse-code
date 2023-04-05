@@ -17,9 +17,5 @@ def decode_char(code)
 end
 
 def decode_word(word)
-  word.split.map do |char| 
-    decode_char(char).join
-  end
+  word.split.map { |char| decode_char(char) }.join
 end
-
-decode_char( '.-   -... --- -..-   ..-. ..- .-.. .-..   --- ..-.   .-. ..- -... .. . ...')

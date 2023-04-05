@@ -15,3 +15,5 @@ def decode_char(code)
   end
   decode
 end
+
+decode_char( .-   -... --- -..-   ..-. ..- .-.. .-..   --- ..-.   .-. ..- -... .. . ...)

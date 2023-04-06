@@ -63,7 +63,7 @@ A basic understanding of Ruby and Git
 
 1. Install Ruby
 2. Clone this repo `git clone https://github.com/mohisa302/Morse-code.git`
-3. Inside the `morse.rb` file there is a method `decode_message`. Pass your morse code as a parameter in this method like so: `decode('.-   -... --- -..-   ..-. ..- .-.. .-..   --- ..-.   .-. ..- -... .. . ...')`
+3. Inside the `decoder.rb` file there is a method `decode_message`. Pass your morse code as a parameter in this method like so: `decode('.-   -... --- -..-   ..-. ..- .-.. .-..   --- ..-.   .-. ..- -... .. . ...')`
 
 <!-- AUTHORS -->
 

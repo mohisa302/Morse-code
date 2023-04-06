@@ -62,7 +62,7 @@ A basic understanding of Ruby and Git
 ### Usage
 
 1. Install Ruby
-2. Clone this repo `git clone https://github.com/bernabasy/Decode_Morse.git`
+2. Clone this repo `git clone https://github.com/mohisa302/Morse-code.git`
 3. Inside the `morse.rb` file there is a method `decode_message`. Pass your morse code as a parameter in this method like so: `decode('.-   -... --- -..-   ..-. ..- .-.. .-..   --- ..-.   .-. ..- -... .. . ...')`
 
 <!-- AUTHORS -->
@@ -117,6 +117,6 @@ If you like this project please give a⭐️ and share with your friends.
 
 ## 📝 License <a name="license"></a>
 
-This project is [MIT](https://github.com/bernabasy/Decode_Morse/blob/dev/LICENSE) licensed.
+This project is [MIT](./LICENSE) licensed.
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
